@@ -77,6 +77,7 @@ class GameModel: ObservableObject {
                 spawnBoss()
             } else {
                 gameState = .won
+            stopGame()
             }
             return
         }
@@ -189,20 +190,18 @@ class GameModel: ObservableObject {
         }
     }
     
-    private func removeDeadObjects() {
+    func removeDeadObjects() {
         enemies.removeAll { $0.health <= 0 }
         projectiles.removeAll { $0.hasHit || $0.position.x > UIScreen.main.bounds.width + 50 }
     }
     
-    private func checkGameState() {
+    func checkGameState() {
         if health <= 0 {
             gameState = .lost
             stopGame()
-        } else if enemies.isEmpty && wave > maxWaves {
-            gameState = .won
-            stopGame()
         } else if enemies.isEmpty && gameState == .wave {
             gameState = .waiting
+            wave += 1
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                 self.startNextWave()
             }
