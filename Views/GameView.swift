@@ -136,17 +136,9 @@ struct GameView: View {
         guard let towerType = gameModel.selectedTowerType,
               gameModel.coins >= towerType.cost else { return }
         
-        // Check if location is not on the path
-        let pathWidth: CGFloat = 40
-        for pathPoint in gameModel.enemyPath {
-            if location.distance(to: pathPoint) < pathWidth {
-                return // Too close to path
-            }
-        }
-        
         // Check if location is not too close to existing towers
         for tower in gameModel.towers {
-            if location.distance(to: tower.position) < 60 {
+            if location.distance(to: tower.position) < 30 {
                 return // Too close to existing tower
             }
         }
