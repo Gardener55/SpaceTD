@@ -6,6 +6,39 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F03C15AE2E4BF4B100C0AC3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15AD2E4BF45100C0AC3F /* Extensions.swift */; };
+		F03C15AF2E4BF4B100C0AC3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15AD2E4BF45100C0AC3F /* Extensions.swift */; };
+		F03C15B02E4BF4B100C0AC3F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15AD2E4BF45100C0AC3F /* Extensions.swift */; };
+		F03C15B12E4BF4B700C0AC3F /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15AB2E4BF43C00C0AC3F /* ProfileManager.swift */; };
+		F03C15B22E4BF4B700C0AC3F /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15AB2E4BF43C00C0AC3F /* ProfileManager.swift */; };
+		F03C15B32E4BF4B700C0AC3F /* ProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15AB2E4BF43C00C0AC3F /* ProfileManager.swift */; };
+		F03C15B42E4BF4C300C0AC3F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A82E4BF42300C0AC3F /* GameView.swift */; };
+		F03C15B52E4BF4C300C0AC3F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A62E4BF41500C0AC3F /* MenuView.swift */; };
+		F03C15B62E4BF4C300C0AC3F /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A92E4BF42C00C0AC3F /* GameOverView.swift */; };
+		F03C15B72E4BF4C300C0AC3F /* LevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A72E4BF41C00C0AC3F /* LevelSelectView.swift */; };
+		F03C15B82E4BF4C300C0AC3F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A82E4BF42300C0AC3F /* GameView.swift */; };
+		F03C15B92E4BF4C300C0AC3F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A62E4BF41500C0AC3F /* MenuView.swift */; };
+		F03C15BA2E4BF4C300C0AC3F /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A92E4BF42C00C0AC3F /* GameOverView.swift */; };
+		F03C15BB2E4BF4C300C0AC3F /* LevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A72E4BF41C00C0AC3F /* LevelSelectView.swift */; };
+		F03C15BC2E4BF4C300C0AC3F /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A62E4BF41500C0AC3F /* MenuView.swift */; };
+		F03C15BD2E4BF4C300C0AC3F /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A82E4BF42300C0AC3F /* GameView.swift */; };
+		F03C15BE2E4BF4C300C0AC3F /* LevelSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A72E4BF41C00C0AC3F /* LevelSelectView.swift */; };
+		F03C15BF2E4BF4C300C0AC3F /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A92E4BF42C00C0AC3F /* GameOverView.swift */; };
+		F03C15C02E4BF4CA00C0AC3F /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A12E4BF3EB00C0AC3F /* GameModel.swift */; };
+		F03C15C12E4BF4CA00C0AC3F /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A22E4BF3F400C0AC3F /* Enemy.swift */; };
+		F03C15C22E4BF4CA00C0AC3F /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A32E4BF3FC00C0AC3F /* Tower.swift */; };
+		F03C15C32E4BF4CA00C0AC3F /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A42E4BF40300C0AC3F /* Projectile.swift */; };
+		F03C15C42E4BF4CA00C0AC3F /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A12E4BF3EB00C0AC3F /* GameModel.swift */; };
+		F03C15C52E4BF4CA00C0AC3F /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A22E4BF3F400C0AC3F /* Enemy.swift */; };
+		F03C15C62E4BF4CA00C0AC3F /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A32E4BF3FC00C0AC3F /* Tower.swift */; };
+		F03C15C72E4BF4CA00C0AC3F /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A42E4BF40300C0AC3F /* Projectile.swift */; };
+		F03C15C82E4BF4CA00C0AC3F /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A12E4BF3EB00C0AC3F /* GameModel.swift */; };
+		F03C15C92E4BF4CA00C0AC3F /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A22E4BF3F400C0AC3F /* Enemy.swift */; };
+		F03C15CA2E4BF4CA00C0AC3F /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A32E4BF3FC00C0AC3F /* Tower.swift */; };
+		F03C15CB2E4BF4CA00C0AC3F /* Projectile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F03C15A42E4BF40300C0AC3F /* Projectile.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F03C15842E4BF38F00C0AC3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +60,16 @@
 		F03C15712E4BF38E00C0AC3F /* SpaceTD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceTD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03C15832E4BF38F00C0AC3F /* SpaceTDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F03C158D2E4BF38F00C0AC3F /* SpaceTDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpaceTDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03C15A12E4BF3EB00C0AC3F /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		F03C15A22E4BF3F400C0AC3F /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		F03C15A32E4BF3FC00C0AC3F /* Tower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tower.swift; sourceTree = "<group>"; };
+		F03C15A42E4BF40300C0AC3F /* Projectile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projectile.swift; sourceTree = "<group>"; };
+		F03C15A62E4BF41500C0AC3F /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F03C15A72E4BF41C00C0AC3F /* LevelSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelSelectView.swift; sourceTree = "<group>"; };
+		F03C15A82E4BF42300C0AC3F /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		F03C15A92E4BF42C00C0AC3F /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		F03C15AB2E4BF43C00C0AC3F /* ProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileManager.swift; sourceTree = "<group>"; };
+		F03C15AD2E4BF45100C0AC3F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +118,10 @@
 		F03C15682E4BF38E00C0AC3F = {
 			isa = PBXGroup;
 			children = (
+				F03C15AC2E4BF44400C0AC3F /* Utils */,
+				F03C15AA2E4BF43500C0AC3F /* Managers */,
+				F03C15A52E4BF40D00C0AC3F /* Views */,
+				F03C15A02E4BF3E400C0AC3F /* Models */,
 				F03C15732E4BF38E00C0AC3F /* SpaceTD */,
 				F03C15862E4BF38F00C0AC3F /* SpaceTDTests */,
 				F03C15902E4BF38F00C0AC3F /* SpaceTDUITests */,
@@ -90,6 +137,44 @@
 				F03C158D2E4BF38F00C0AC3F /* SpaceTDUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F03C15A02E4BF3E400C0AC3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F03C15A42E4BF40300C0AC3F /* Projectile.swift */,
+				F03C15A32E4BF3FC00C0AC3F /* Tower.swift */,
+				F03C15A22E4BF3F400C0AC3F /* Enemy.swift */,
+				F03C15A12E4BF3EB00C0AC3F /* GameModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F03C15A52E4BF40D00C0AC3F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F03C15A92E4BF42C00C0AC3F /* GameOverView.swift */,
+				F03C15A82E4BF42300C0AC3F /* GameView.swift */,
+				F03C15A72E4BF41C00C0AC3F /* LevelSelectView.swift */,
+				F03C15A62E4BF41500C0AC3F /* MenuView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F03C15AA2E4BF43500C0AC3F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				F03C15AB2E4BF43C00C0AC3F /* ProfileManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F03C15AC2E4BF44400C0AC3F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F03C15AD2E4BF45100C0AC3F /* Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +321,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03C15AE2E4BF4B100C0AC3F /* Extensions.swift in Sources */,
+				F03C15B12E4BF4B700C0AC3F /* ProfileManager.swift in Sources */,
+				F03C15B42E4BF4C300C0AC3F /* GameView.swift in Sources */,
+				F03C15B52E4BF4C300C0AC3F /* MenuView.swift in Sources */,
+				F03C15C02E4BF4CA00C0AC3F /* GameModel.swift in Sources */,
+				F03C15C12E4BF4CA00C0AC3F /* Enemy.swift in Sources */,
+				F03C15C22E4BF4CA00C0AC3F /* Tower.swift in Sources */,
+				F03C15C32E4BF4CA00C0AC3F /* Projectile.swift in Sources */,
+				F03C15B62E4BF4C300C0AC3F /* GameOverView.swift in Sources */,
+				F03C15B72E4BF4C300C0AC3F /* LevelSelectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +338,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03C15B82E4BF4C300C0AC3F /* GameView.swift in Sources */,
+				F03C15B92E4BF4C300C0AC3F /* MenuView.swift in Sources */,
+				F03C15BA2E4BF4C300C0AC3F /* GameOverView.swift in Sources */,
+				F03C15BB2E4BF4C300C0AC3F /* LevelSelectView.swift in Sources */,
+				F03C15C42E4BF4CA00C0AC3F /* GameModel.swift in Sources */,
+				F03C15C52E4BF4CA00C0AC3F /* Enemy.swift in Sources */,
+				F03C15C62E4BF4CA00C0AC3F /* Tower.swift in Sources */,
+				F03C15C72E4BF4CA00C0AC3F /* Projectile.swift in Sources */,
+				F03C15B22E4BF4B700C0AC3F /* ProfileManager.swift in Sources */,
+				F03C15AF2E4BF4B100C0AC3F /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +355,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F03C15BC2E4BF4C300C0AC3F /* MenuView.swift in Sources */,
+				F03C15BD2E4BF4C300C0AC3F /* GameView.swift in Sources */,
+				F03C15BE2E4BF4C300C0AC3F /* LevelSelectView.swift in Sources */,
+				F03C15BF2E4BF4C300C0AC3F /* GameOverView.swift in Sources */,
+				F03C15C82E4BF4CA00C0AC3F /* GameModel.swift in Sources */,
+				F03C15C92E4BF4CA00C0AC3F /* Enemy.swift in Sources */,
+				F03C15CA2E4BF4CA00C0AC3F /* Tower.swift in Sources */,
+				F03C15CB2E4BF4CA00C0AC3F /* Projectile.swift in Sources */,
+				F03C15B02E4BF4B100C0AC3F /* Extensions.swift in Sources */,
+				F03C15B32E4BF4B700C0AC3F /* ProfileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +510,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KVKHCP928;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -422,6 +538,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KVKHCP928;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -448,6 +565,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KVKHCP928;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
@@ -466,6 +584,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KVKHCP928;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
@@ -483,6 +602,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KVKHCP928;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chad.SpaceTDUITests;
@@ -499,6 +619,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4KVKHCP928;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.chad.SpaceTDUITests;
